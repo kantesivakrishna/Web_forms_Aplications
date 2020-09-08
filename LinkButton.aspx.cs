@@ -16,7 +16,8 @@ namespace Web_forms_Aplications
 
         protected void Link_Click(object sender, EventArgs e)
         {
-            Lable1.Text = "welcome to my web site, How May I help you?";
+            Lable1.Text = "welcome to my web site, "+
+                "How May I help you?";
         }
     }
 }

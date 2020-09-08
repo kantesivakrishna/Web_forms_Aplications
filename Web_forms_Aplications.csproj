@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Calender_form.aspx" />
     <Content Include="Checkbox.aspx" />
+    <Content Include="Fileupload.aspx" />
     <Content Include="HyperLink.aspx" />
     <Content Include="LinkButton.aspx" />
     <Content Include="Radio_button.aspx" />
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="Checkbox.aspx.designer.cs">
       <DependentUpon>Checkbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fileupload.aspx.cs">
+      <DependentUpon>Fileupload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fileupload.aspx.designer.cs">
+      <DependentUpon>Fileupload.aspx</DependentUpon>
     </Compile>
     <Compile Include="HyperLink.aspx.cs">
       <DependentUpon>HyperLink.aspx</DependentUpon>
