@@ -70,6 +70,7 @@
     <Content Include="Calender_form.aspx" />
     <Content Include="Checkbox.aspx" />
     <Content Include="Fileupload.aspx" />
+    <Content Include="Fileupload_multiple_Files.aspx" />
     <Content Include="HyperLink.aspx" />
     <Content Include="LinkButton.aspx" />
     <Content Include="Radio_button.aspx" />
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="Fileupload.aspx.designer.cs">
       <DependentUpon>Fileupload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fileupload_multiple_Files.aspx.cs">
+      <DependentUpon>Fileupload_multiple_Files.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fileupload_multiple_Files.aspx.designer.cs">
+      <DependentUpon>Fileupload_multiple_Files.aspx</DependentUpon>
     </Compile>
     <Compile Include="HyperLink.aspx.cs">
       <DependentUpon>HyperLink.aspx</DependentUpon>
