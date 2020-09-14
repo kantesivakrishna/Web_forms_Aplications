@@ -71,6 +71,7 @@
     <Content Include="Checkbox.aspx" />
     <Content Include="Cookie.aspx" />
     <Content Include="Cookie_02.aspx" />
+    <Content Include="DataList.aspx" />
     <Content Include="DropDownList.aspx" />
     <Content Include="Fileupload.aspx" />
     <Content Include="Fileupload_multiple_Files.aspx" />
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="Cookie_02.aspx.designer.cs">
       <DependentUpon>Cookie_02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataList.aspx.cs">
+      <DependentUpon>DataList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataList.aspx.designer.cs">
+      <DependentUpon>DataList.aspx</DependentUpon>
     </Compile>
     <Compile Include="DropDownList.aspx.cs">
       <DependentUpon>DropDownList.aspx</DependentUpon>
