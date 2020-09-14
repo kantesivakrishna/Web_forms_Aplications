@@ -16,9 +16,9 @@
                 <table>
                     <tr>
                         <td>
-                            <b>ID:</b><span class="city"><%#Eval("ID") %></span>
+                            <b>ID:</b><span class="city"><%#Eval("ID") %></span><br />
                             <b>Name:</b><span class="postal"><%#Eval("Name") %></span><br />
-                            <b>Email</b><span class="country"><%# Eval("Email") %></span><br />
+                            <b>Email:</b><span class="country"><%# Eval("Email") %></span><br />
                         </td>
                     </tr>
                 </table>
