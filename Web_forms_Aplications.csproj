@@ -70,6 +70,7 @@
     <Content Include="Calender_form.aspx" />
     <Content Include="Checkbox.aspx" />
     <Content Include="Cookie.aspx" />
+    <Content Include="Cookie_02.aspx" />
     <Content Include="Fileupload.aspx" />
     <Content Include="Fileupload_multiple_Files.aspx" />
     <Content Include="File_DownLoad.aspx" />
@@ -99,6 +100,13 @@
     </Compile>
     <Compile Include="Cookie.aspx.designer.cs">
       <DependentUpon>Cookie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cookie_02.aspx.cs">
+      <DependentUpon>Cookie_02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookie_02.aspx.designer.cs">
+      <DependentUpon>Cookie_02.aspx</DependentUpon>
     </Compile>
     <Compile Include="Fileupload.aspx.cs">
       <DependentUpon>Fileupload.aspx</DependentUpon>
