@@ -77,6 +77,7 @@
     <Content Include="HyperLink.aspx" />
     <Content Include="LinkButton.aspx" />
     <Content Include="Radio_button.aspx" />
+    <Content Include="Session.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +151,13 @@
     </Compile>
     <Compile Include="Radio_button.aspx.designer.cs">
       <DependentUpon>Radio_button.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Session.aspx.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session.aspx.designer.cs">
+      <DependentUpon>Session.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
